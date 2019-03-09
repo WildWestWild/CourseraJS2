@@ -25,6 +25,7 @@ items.append(letters);
 assert.equal(items.count(), 6);
 assert.deepEqual(items.values(), [10, 20, 'a', 'b', 'c', 'd']);
 
+
 // Проверяем получение элемента
 assert.equal(items.at(0), null);
 assert.equal(items.at(1), 10);
